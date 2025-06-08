@@ -6,10 +6,10 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::view('/rooms', 'coming-soon');
-Route::view('/facilities', 'coming-soon');
-Route::view('/events', 'coming-soon');
-Route::view('/gallery', 'coming-soon');
-Route::view('/offers', 'coming-soon');
-Route::view('/contact', 'coming-soon');
-Route::view('/book', 'coming-soon');
+Route::view('/rooms', 'rooms')->name('rooms');
+Route::view('/facilities', 'facilities')->name('facilities');
+Route::view('/events', 'events')->name('events');
+Route::view('/gallery', 'gallery')->name('gallery');
+Route::view('/offers', 'offers')->name('offers');
+Route::view('/contact', 'contact')->name('contact');
+Route::view('/book', 'book')->name('book');

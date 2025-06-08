@@ -11,10 +11,10 @@
             <div class="col-md-4 mb-3">
                 <h5 class="fw-bold text-uppercase">Quick Links</h5>
                 <ul class="list-unstyled small">
-                    <li><a href="{{ url('/rooms') }}" class="text-white text-decoration-none">Rooms</a></li>
-                    <li><a href="{{ url('/events') }}" class="text-white text-decoration-none">Events</a></li>
-                    <li><a href="{{ url('/offers') }}" class="text-white text-decoration-none">Offers</a></li>
-                    <li><a href="{{ url('/contact') }}" class="text-white text-decoration-none">Contact</a></li>
+                    <li><a href="{{ route('rooms') }}" class="text-white text-decoration-none">Rooms</a></li>
+                    <li><a href="{{ route('events') }}" class="text-white text-decoration-none">Events</a></li>
+                    <li><a href="{{ route('offers') }}" class="text-white text-decoration-none">Offers</a></li>
+                    <li><a href="{{ route('contact') }}" class="text-white text-decoration-none">Contact</a></li>
                 </ul>
             </div>
             

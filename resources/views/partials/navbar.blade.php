@@ -13,25 +13,25 @@
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/rooms') }}">Rooms</a>
+                    <a class="nav-link" href="{{ route('rooms') }}">Rooms</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/facilities') }}">Facilities</a>
+                    <a class="nav-link" href="{{ route('facilities') }}">Facilities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/events') }}">Events</a>
+                    <a class="nav-link" href="{{ route('events') }}">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/gallery') }}">Gallery</a>
+                    <a class="nav-link" href="{{ route('gallery') }}">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/offers') }}">Offers</a>
+                    <a class="nav-link" href="{{ route('offers') }}">Offers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
+                    <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
                 <li class="nav-item ms-lg-3">
-                    <a class="btn btn-dark rounded-pill px-4" href="{{ url('/book') }}">Book Now</a>
+                    <a class="btn btn-dark rounded-pill px-4" href="{{ route('book') }}">Book Now</a>
                 </li>
             </ul>
         </div>
