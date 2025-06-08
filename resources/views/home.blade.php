@@ -15,16 +15,18 @@
 
 {{-- About Section --}}
 <section class="py-5 bg-light">
-    <div class="container text-center">
+    <!-- <div class="container text-center">
         <h2 class="fw-bold mb-3">Your Urban Retreat</h2>
         <p class="text-muted">Located in the heart of the Tagbina, our hotel blends modern elegance with the warmth of home. Discover exceptional amenities, fine dining, and personalized service in every corner.</p>
-    </div>
+    </div> -->
+    <x-section-header title="Your Urban Retreat" subtitle="Located in the heart of the Tagbina, our hotel blends modern elegance with the warmth of home. Discover exceptional amenities, fine dining, and personalized service in every corner."/>
 </section>
 
 {{-- Rooms Preview --}}
 <section class="py-5">
     <div class="container">
-        <h2 class="fw-bold text-center mb-5">Rooms & Suites</h2>
+        <!-- <h2 class="fw-bold text-center mb-5">Rooms & Suites</h2> -->
+        <x-section-header title="Rooms & Suites" />
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="card border-0 shadow">
@@ -55,8 +57,9 @@
 {{-- Facilities Highlight --}}
 <section class="py-5 bg-light">
     <div class="container text-center">
-        <h2 class="fw-bold mb-4">Facilities</h2>
-        <p class="text-muted mb-5">From poolside relaxation to modern fitness, our facilities offer everything you need for a perfect stay.</p>
+        <!-- <h2 class="fw-bold mb-4">Facilities</h2>
+        <p class="text-muted mb-5">From poolside relaxation to modern fitness, our facilities offer everything you need for a perfect stay.</p> -->
+        <x-section-header title="Facilities" subtitle="From poolside relaxation to modern fitness, our facilities offer everything you need for a perfect stay."/>
         <div class="row g-4">
             <div class="col-md-4">
                 <img src="{{ asset('images/hero.jpg') }}" class="img-fluid rounded shadow-sm" alt="Pool">
@@ -77,8 +80,9 @@
 {{-- Events Section --}}
 <section class="py-5">
     <div class="container text-center">
-        <h2 class="fw-bold mb-4">Celebrate With Us</h2>
-        <p class="text-muted mb-4">Host memorable events, from intimate gatherings to grand celebrations, with our versatile venues and expert team.</p>
+        <!-- <h2 class="fw-bold mb-4">Celebrate With Us</h2>
+        <p class="text-muted mb-4">Host memorable events, from intimate gatherings to grand celebrations, with our versatile venues and expert team.</p> -->
+        <x-section-header title="Celebrate With Us" subtitle="Host memorable events, from intimate gatherings to grand celebrations, with our versatile venues and expert team."/>
         <a href="{{ url('/events') }}" class="btn btn-dark rounded-pill px-4">View Event Packages</a>
     </div>
 </section>
@@ -86,8 +90,9 @@
 {{-- CTA Section --}}
 <section class="bg-dark text-white text-center py-5">
     <div class="container">
-        <h2 class="fw-bold mb-3">Book Your Stay Now</h2>
-        <p class="mb-4">Enjoy exclusive rates and personalized experiences when you book directly with us.</p>
+        <!-- <h2 class="fw-bold mb-3">Book Your Stay Now</h2>
+        <p class="mb-4">Enjoy exclusive rates and personalized experiences when you book directly with us.</p> -->
+        <x-section-header title="Book Your Stay Now" subtitle="Enjoy exclusive rates and personalized experiences when you book directly with us." subtitle-class="text-white" />
         <a href="{{ url('/book') }}" class="btn btn-light btn-lg px-5 rounded-pill">Reserve a Room</a>
     </div>
 </section>
