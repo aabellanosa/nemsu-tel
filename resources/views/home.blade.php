@@ -7,7 +7,7 @@
 {{-- Hero Section --}}
 <section class="hero position-relative text-white text-center" style="background: url('{{ asset('images/hero.jpg') }}') center center / cover no-repeat; height: 90vh;">
     <div class="d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50">
-        <h1 class="display-4 fw-bold">Welcome to Nemsu Hotel</h1>
+        <h1 class="display-4 fw-bold">Welcome to NEMSUTEL</h1>
         <p class="lead">Comfort, elegance, and unforgettable hospitality await you.</p>
         <a href="{{ url('/book') }}" class="btn btn-light btn-lg mt-3 px-4 rounded-pill">Book Now</a>
     </div>
